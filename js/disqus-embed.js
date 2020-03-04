@@ -14,7 +14,7 @@
   "lazyload_viewports":"2",
   "forum":{
     "id":3541684,
-    "disable_disqus_branding":false
+    "disable_disqus_branding":true
   },
   "service":"dynamic",
   "bottom_placement_url":"",

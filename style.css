@@ -2039,7 +2039,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #header.transparent-header:
 #header,
 #header-wrap,
 #logo img {
-	height: 100px;
+	height: 70px;
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
@@ -13934,4 +13934,19 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+/* ----------------------------------------------------------------
+	Disqus Plugin
+-----------------------------------------------------------------*/
 
+#disqus_thread {
+  position: relative;
+}
+#disqus_thread:after {
+  content: "";
+  display: block;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
