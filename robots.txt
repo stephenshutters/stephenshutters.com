@@ -1,3 +1,1 @@
-User-agent: *
-Allow: /
 Sitemap: https://stephenshutters.com/sitemap.xml
