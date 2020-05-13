@@ -1,1 +1,2 @@
-Sitemap: https://stephenshutters.com/sitemap.xml
+User-agent: *
+Disallow: /

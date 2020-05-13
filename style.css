@@ -11699,7 +11699,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 #gotoTop {
 	display: none;
-	z-index: 299;
+	z-index: 999999;
 	position: fixed;
 	width: 40px;
 	height: 40px;
@@ -13949,4 +13949,60 @@ body:not(.no-transition) #wrapper,
   position: absolute;
   bottom: 0;
   background: white;
+}
+
+/* ----------------------------------------------------------------
+	Instagram Feed Widget
+-----------------------------------------------------------------*/
+
+#Instafeed {
+  position: relative;
+}
+#Instafeed:after {
+  content: "";
+  display: block;
+  height: 44px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #282828;
+	z-index: 999999;
+}
+
+/* ----------------------------------------------------------------
+	Twitter Feed Widget
+-----------------------------------------------------------------*/
+
+#Tweetfeed {
+  position: relative;
+	background: #F9F9F9;
+}
+#Tweetfeed:after {
+  content: "";
+  display: block;
+  height: 44px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #F9F9F9;
+	z-index: 999999;
+}
+
+/* ----------------------------------------------------------------
+	Responsive iFrames
+-----------------------------------------------------------------*/
+
+.spotify-container {
+    position: relative;
+		height: 0;
+		padding-bottom: 100%;
+		overflow: hidden;
+}
+
+.spotify-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
