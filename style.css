@@ -10395,7 +10395,9 @@ blockquote {
 	padding: 10px 20px;
 	margin: 0 0 20px;
 	font-size: 17px;
-	border-left: 5px solid #EEE;
+	/*border-left: 5px solid #EEE; (I have hidden this blockquote border within a
+																	comment instead of deleting it just in case I
+																	end up wanting to add it back later.)*/
 }
 
 .blockquote-reverse {
