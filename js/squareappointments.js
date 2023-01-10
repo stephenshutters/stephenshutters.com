@@ -31,6 +31,7 @@
       var width = "100%";
       var height = "100%";
       iframe.style.minHeight = isSquareOnline ? "auto" : "500px";
+      iframe.style.minWidth = isSquareOnline ? "auto" : "500px";
 
     iframe.style.width = width;
     iframe.style.height = height;
@@ -50,7 +51,7 @@
             "padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; " +
             "display: inline-block; text-decoration: none");
     button.setAttribute("href", 'https://squareup.com/appointments/book/r7a3vhk7wiipbo/18YQYBTZMXHYJ/start');
-    button.textContent = "Book&nbsp;Photo&nbsp;Shoot&nbsp;Now";
+    button.textContent = "Book Photo Shoot Now";
 
     container.setAttribute("style", "text-align: center");
     container.appendChild(button);
