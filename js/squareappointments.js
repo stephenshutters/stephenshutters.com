@@ -31,7 +31,6 @@
       var width = "100%";
       var height = "100%";
       iframe.style.minHeight = isSquareOnline ? "auto" : "500px";
-      iframe.style.minWidth = isSquareOnline ? "auto" : "500px";
 
     iframe.style.width = width;
     iframe.style.height = height;
