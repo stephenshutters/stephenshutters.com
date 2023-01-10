@@ -50,7 +50,7 @@
             "padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; " +
             "display: inline-block; text-decoration: none");
     button.setAttribute("href", 'https://squareup.com/appointments/book/r7a3vhk7wiipbo/18YQYBTZMXHYJ/start');
-    button.textContent = "Book Photo Shoot Now";
+    button.textContent = "Book&nbsp;Photo&nbsp;Shoot&nbsp;Now";
 
     container.setAttribute("style", "text-align: center");
     container.appendChild(button);
