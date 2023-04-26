@@ -14014,12 +14014,14 @@ body:not(.no-transition) #wrapper,
 #snipcart {
     --bgColor-buttonPrimary: #444;
     --bgColor-buttonPrimary-hover: hsl(168, 76%, 42%);
+    --bgColor-buttonPrimary-active: hsl(168, 76%, 22%);
     --color-link: #1ABC9C;
     --color-link-hover: #444;
     --bgColor-info: hsl(168, 55%, 15%);
     --bgColor-buttonSecondary: hsl(168, 76%, 82%);
     --color-buttonSecondary: hsl(168, 76%, 22%);
     --borderColor-input-hover: hsl(168, 76%, 32%);
+    --color-badge: hsl(168, 76%, 22%);
     --color-badge-active: hsl(168, 76%, 22%);
     --bgColor-badge-active: hsl(168, 76%, 82%);
 }
