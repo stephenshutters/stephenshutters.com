@@ -14020,6 +14020,8 @@ body:not(.no-transition) #wrapper,
     --bgColor-buttonSecondary: hsl(168, 76%, 82%);
     --color-buttonSecondary: hsl(168, 76%, 22%);
     --borderColor-input-hover: hsl(168, 76%, 32%);
+    --color-badge-active: hsl(168, 76%, 22%);
+    --bgColor-badge-active: hsl(168, 76%, 82%);
 }
 
 /* ----------------------------------------------------------------
