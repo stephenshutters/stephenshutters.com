@@ -973,6 +973,12 @@ html[xmlns] .slider-wrap {display: block;}
 	z-index: 199;
 }
 
+#header.live-header {
+	background: #282828;
+	border-bottom: none;
+	z-index: 199;
+}
+
 #header.semi-transparent { background-color: rgba(255,255,255,0.8); }
 
 #header.transparent-header.floating-header { margin-top: 60px; }
